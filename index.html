@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="javascript.js"></script>
+    <title>Restaurant</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">
+        Maitre D
+    </h1>
+    
+        <table align="center">
+            <tr> <td colspan="2"><label for="total">Total: </label>
+
+                <input type="text" id="total" size="30"></td></tr>
+
+                <!--empty row-->
+                <tr style="height: 2em"></tr>
+            <tr>
+                <td> Tip:$ <span id="tip"></span></td>
+                <td> <label for="rate"> Rate:</label>
+                <input type="text" id="rate" size="18" ></td>
+            </tr>
+            <tr>
+                <td>
+             Tax:$ <span id="tax"></span>
+            </td>
+        </tr>
+            <tr>
+                 <td>
+                    GrandTotal:$ <span id="grand"></span>
+                 </td>
+            </tr>
+            <tr>
+                    <td>
+                        <button style="text-align: center;" onclick="calbill()">Calculate</button>
+                    </td>
+            </tr>
+                
+        </table>
+ 
+</body>
+
+</html>
